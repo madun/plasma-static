@@ -14,44 +14,44 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <title>Plasma Antrian</title>
 </head>
-<body>
+<body class="h-screen flex flex-col bg-gray-800 overflow-y-hidden">
 
-<div class="h-screen flex flex-col bg-gray-800">
+<!-- <div > -->
   <!-- header -->
-  <header class="h-[120px] flex items-end">
+  <header class="h-[13vh] flex items-end">
     <div class="flex-1 flex flex-col justify-center pl-6 bg-white h-full rounded-br-[45px]">
       <div class="text-gray-700 flex items-center">
         <img src="https://via.placeholder.com/150" class="w-20 object-fit"/>
-        <div class="text-[1.6vw] font-bold pl-4">
+        <div class="text-[2.5vh] font-bold pl-4">
           <p>RUMAH SAKIT CONTOH</p>
           <p>TAGLINE RUMAH SAKIT DISINI</p>
         </div>
       </div>
     </div>
-    <div class="w-[40vw] bg-white h-[120px] flex flex-col justify-end">
-      <div class="h-[95px] bg-gray-800 rounded-tl-[45px] flex justify-end">
+    <div class="w-[40vw] bg-white h-[13vh] flex flex-col justify-end">
+      <div class="h-[10vh] bg-gray-800 rounded-tl-[45px] flex justify-end">
         <div class="text-white flex items-center justify-end pr-6">
-          <div class="text-right text-xl mr-4">
+          <div class="text-right text-[2.5vh] mr-4">
             <p id="current-day">Jumat</p>
             <p id="current-date">15 Mei 2022</p>
           </div>
-          <div class="text-6xl font-bold" id="MyClockDisplay">09:15</div>
+          <div class="text-[8vh] font-bold" id="MyClockDisplay">09:15</div>
         </div>
       </div>
     </div>
   </header>
   <!-- content -->
-  <section class="flex-1 flex flex-col py-16">
-    <div class="flex-1 flex">
-      <div class="w-[40vw] px-8 pb-16 flex flex-col justify-center">
-        <div class="w-full h-[40vh] bg-white rounded-lg overflow-hidden">
-          <div class="bg-pink-600 text-white text-[2vw] text-center py-2 font-bold">MEMANGGIL   ANTRIAN</div>
-          <div class="h-[30vh] flex flex-col justify-center items-center">
+  <section class="flex-1 flex flex-col">
+    <div class="h-[50vh] flex gap-[4vh] mt-[6vh] mb-[5vh] px-[4vh]">
+      <div class="w-[40vw] h-[50vh]">
+        <div class="w-full bg-white rounded-lg overflow-hidden">
+          <div class="h-[8vh] bg-pink-600 text-white text-[2vw] text-center py-2 font-bold">MEMANGGIL   ANTRIAN</div>
+          <div class="h-[42vh] flex flex-col justify-center items-center">
             <div id="antrian" class="text-[8vw] text-gray-700 text-center font-bold">2</div>
           </div>
         </div>
       </div>
-      <div class="w-[60vw] h-[50vh] px-8 pb-16">
+      <div class="w-[60vw] h-[50vh]">
         <div class="h-full border-2 border-green-500 w-full rounded-lg overflow-hidden flex flex-col justify-center">
           <video width="100%" height="100%" controls="false" autoplay muted>
             <source src="./assets/test.mp4" type="video/mp4">
@@ -61,59 +61,59 @@
       </div>
     </div>
     <!-- loket -->
-    <div class="h-[14vw] px-8">
+    <div class="h-[19vh] px-8">
       <div class="swiper">
         <div class="swiper-wrapper">
           <div class="swiper-slide bg-green-500 rounded-lg overflow-hidden flex flex-col justify-between">
-            <div class="text-[5.5vw] font-bold text-gray-100 text-center">0004</div>
-            <div class="bg-green-700 text-center text-yellow-300 text-[2vw] py-1 leading-tight">POLI ANAK</div>
+            <div class="text-[8vh] font-bold text-gray-100 text-center">0004</div>
+            <div class="bg-green-700 text-center text-yellow-300 text-[2.5vh] py-1 px-2 leading-tight">POLI ANAK</div>
           </div>
           <div class="swiper-slide bg-green-500 rounded-lg overflow-hidden flex flex-col justify-between">
-            <div class="text-[5.5vw] font-bold text-gray-100 text-center">003</div>
-            <div class="bg-green-700 text-center text-yellow-300 text-[2vw] py-1 leading-tight">POLI ANAK</div>
+            <div class="text-[8vh] font-bold text-gray-100 text-center">003</div>
+            <div class="bg-green-700 text-center text-yellow-300 text-[2.5vh] py-1 px-2 leading-tight">POLI ANAK</div>
           </div>
           <div class="swiper-slide bg-green-500 rounded-lg overflow-hidden flex flex-col justify-between">
-            <div class="text-[5.5vw] font-bold text-gray-100 text-center">003</div>
-            <div class="bg-green-700 text-center text-yellow-300 text-[2vw] py-1 leading-tight">POLI ANAK fdsfsdfdsfdd fdsafsafdsa</div>
+            <div class="text-[8vh] font-bold text-gray-100 text-center">003</div>
+            <div class="bg-green-700 text-center text-yellow-300 text-[2.5vh] py-1 leading-tight">POLI ANAK fdsfsdfdsfdd fdsafsafdsa</div>
           </div>
           <div class="swiper-slide bg-green-500 rounded-lg overflow-hidden flex flex-col justify-between">
-            <div class="text-[5.5vw] font-bold text-gray-100 text-center">003</div>
-            <div class="bg-green-700 text-center text-yellow-300 text-[2vw] py-1 leading-tight">POLI ANAK</div>
+            <div class="text-[8vh] font-bold text-gray-100 text-center">003</div>
+            <div class="bg-green-700 text-center text-yellow-300 text-[2.5vh] py-1 px-2 leading-tight">POLI ANAK</div>
           </div>
           <div class="swiper-slide bg-green-500 rounded-lg overflow-hidden flex flex-col justify-between">
-            <div class="text-[5.5vw] font-bold text-gray-100 text-center">003</div>
-            <div class="bg-green-700 text-center text-yellow-300 text-[2vw] py-1 leading-tight">POLI ANAK</div>
+            <div class="text-[8vh] font-bold text-gray-100 text-center">003</div>
+            <div class="bg-green-700 text-center text-yellow-300 text-[2.5vh] py-1 px-2 leading-tight">POLI ANAK</div>
           </div>
           <!-- slide next -->
           <div class="swiper-slide bg-green-500 rounded-lg overflow-hidden flex flex-col justify-between">
-            <div class="text-[5.5vw] font-bold text-gray-100 text-center">0004</div>
-            <div class="bg-green-700 text-center text-yellow-300 text-[2vw] py-1 leading-tight">POLI ANAK</div>
+            <div class="text-[8vh] font-bold text-gray-100 text-center">0004</div>
+            <div class="bg-green-700 text-center text-yellow-300 text-[2.5vh] py-1 px-2 leading-tight">POLI ANAK</div>
           </div>
           <div class="swiper-slide bg-green-500 rounded-lg overflow-hidden flex flex-col justify-between">
-            <div class="text-[5.5vw] font-bold text-gray-100 text-center">003</div>
-            <div class="bg-green-700 text-center text-yellow-300 text-[2vw] py-1 leading-tight">POLI ANAK</div>
+            <div class="text-[8vh] font-bold text-gray-100 text-center">003</div>
+            <div class="bg-green-700 text-center text-yellow-300 text-[2.5vh] py-1 px-2 leading-tight">POLI ANAK</div>
           </div>
           <div class="swiper-slide bg-green-500 rounded-lg overflow-hidden flex flex-col justify-between">
-            <div class="text-[5.5vw] font-bold text-gray-100 text-center">003</div>
-            <div class="bg-green-700 text-center text-yellow-300 text-[2vw] py-1 leading-tight">POLI ANAK</div>
+            <div class="text-[8vh] font-bold text-gray-100 text-center">003</div>
+            <div class="bg-green-700 text-center text-yellow-300 text-[2.5vh] py-1 px-2 leading-tight">POLI ANAK</div>
           </div>
           <div class="swiper-slide bg-green-500 rounded-lg overflow-hidden flex flex-col justify-between">
-            <div class="text-[5.5vw] font-bold text-gray-100 text-center">003</div>
-            <div class="bg-green-700 text-center text-yellow-300 text-[2vw] py-1 leading-tight">POLI ANAK</div>
+            <div class="text-[8vh] font-bold text-gray-100 text-center">003</div>
+            <div class="bg-green-700 text-center text-yellow-300 text-[2.5vh] py-1 px-2 leading-tight">POLI ANAK</div>
           </div>
           <div class="swiper-slide bg-green-500 rounded-lg overflow-hidden flex flex-col justify-between">
-            <div class="text-[5.5vw] font-bold text-gray-100 text-center">003</div>
-            <div class="bg-green-700 text-center text-yellow-300 text-[2vw] py-1 leading-tight">POLI ANAK</div>
+            <div class="text-[8vh] font-bold text-gray-100 text-center">003</div>
+            <div class="bg-green-700 text-center text-yellow-300 text-[2.5vh] py-1 px-2 leading-tight">POLI ANAK</div>
           </div>
         </div>
       </div>
     </div>
   </section>
   <!-- footer -->
-  <footer class="bg-white h-[48px]">
+  <footer class="bg-white absolute inset-x-0 bottom-0 h-[4vh]">
     <marquee behavior="" direction="" class="text-xl text-gray-700">SELAMAT DATANG DI RUMAH SAKIT CONTOH</marquee>
   </footer>
-</div>
+<!-- </div> -->
     
   <script src="./assets/js/script.js"></script>
   <script type="module">
