@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <title>Plasma Antrian</title>
+</head>
+<body>
+
+<div class="h-screen flex flex-col bg-gray-800">
+  <!-- header -->
+  <header class="h-[120px] flex items-end">
+    <div class="flex-1 flex flex-col justify-center pl-6 bg-white h-full rounded-br-[45px]">
+      <div class="text-gray-700 flex items-center">
+        <img src="https://via.placeholder.com/150" class="w-20 object-fit"/>
+        <div class="text-[1.8vw] font-bold pl-4">
+          <p>RUMAH SAKIT CONTOH</p>
+          <p>TAGLINE RUMAH SAKIT DISINI</p>
+        </div>
+      </div>
+    </div>
+    <div class="w-[40vw] bg-white h-[120px] flex flex-col justify-end">
+      <div class="h-[95px] bg-gray-800 rounded-tl-[45px] flex justify-end">
+        <div class="text-white flex items-center justify-end pr-6">
+          <div class="text-right text-xl mr-2">
+            <p id="current-day">Jumat</p>
+            <p id="current-date">15 Mei 2022</p>
+          </div>
+          <div class="text-6xl font-bold" id="MyClockDisplay">09:15</div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- content -->
+  <section class="flex-1 flex flex-col py-16">
+    <div class="flex-1 flex">
+      <div class="w-[40vw] px-8 pb-16 flex flex-col justify-center">
+        <div class="w-full bg-white rounded-lg overflow-hidden">
+          <div class="bg-pink-600 text-white text-[2vw] text-center py-2 font-bold">MEMANGGIL   ANTRIAN</div>
+          <div class="text-[8vw] text-gray-700 text-center font-bold">2</div>
+        </div>
+      </div>
+      <div class="w-[60vw] h-[50vh] px-8 pb-16">
+        <div class="h-full border-2 border-green-500 w-full rounded-lg overflow-hidden flex flex-col justify-center">
+          <video width="100%" height="100%" controls="false" autoplay muted>
+            <source src="./assets/test.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+          </video>
+        </div>
+      </div>
+    </div>
+    <!-- loket -->
+    <div class="h-[14vw] px-8">
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide bg-green-500 rounded-lg overflow-hidden">
+            <div class="text-[7vw] font-bold text-gray-100 text-center px-2">004</div>
+            <div class="bg-green-700 text-center text-yellow-300 text-[2vw] py-1">LOKET 1</div>
+          </div>
+          <div class="swiper-slide bg-green-500 rounded-lg overflow-hidden">
+            <div class="text-[7vw] font-bold text-gray-100 text-center px-2">003</div>
+            <div class="bg-green-700 text-center text-yellow-300 text-[2vw] py-1">LOKET 2</div>
+          </div>
+          <div class="swiper-slide bg-green-500 rounded-lg overflow-hidden">
+            <div class="text-[7vw] font-bold text-gray-100 text-center px-2">003</div>
+            <div class="bg-green-700 text-center text-yellow-300 text-[2vw] py-1">LOKET 3</div>
+          </div>
+          <div class="swiper-slide bg-green-500 rounded-lg overflow-hidden">
+            <div class="text-[7vw] font-bold text-gray-100 text-center px-2">003</div>
+            <div class="bg-green-700 text-center text-yellow-300 text-[2vw] py-1">LOKET 4</div>
+          </div>
+          <div class="swiper-slide bg-green-500 rounded-lg overflow-hidden">
+            <div class="text-[7vw] font-bold text-gray-100 text-center px-2">003</div>
+            <div class="bg-green-700 text-center text-yellow-300 text-[2vw] py-1">LOKET 5</div>
+          </div>
+          <!-- slide next -->
+          <div class="swiper-slide bg-green-500 rounded-lg overflow-hidden">
+            <div class="text-[7vw] font-bold text-gray-100 text-center px-2">004</div>
+            <div class="bg-green-700 text-center text-yellow-300 text-[2vw] py-1">LOKET 6</div>
+          </div>
+          <div class="swiper-slide bg-green-500 rounded-lg overflow-hidden">
+            <div class="text-[7vw] font-bold text-gray-100 text-center px-2">003</div>
+            <div class="bg-green-700 text-center text-yellow-300 text-[2vw] py-1">LOKET 7</div>
+          </div>
+          <div class="swiper-slide bg-green-500 rounded-lg overflow-hidden">
+            <div class="text-[7vw] font-bold text-gray-100 text-center px-2">003</div>
+            <div class="bg-green-700 text-center text-yellow-300 text-[2vw] py-1">LOKET 8</div>
+          </div>
+          <div class="swiper-slide bg-green-500 rounded-lg overflow-hidden">
+            <div class="text-[7vw] font-bold text-gray-100 text-center px-2">003</div>
+            <div class="bg-green-700 text-center text-yellow-300 text-[2vw] py-1">LOKET 9</div>
+          </div>
+          <div class="swiper-slide bg-green-500 rounded-lg overflow-hidden">
+            <div class="text-[7vw] font-bold text-gray-100 text-center px-2">003</div>
+            <div class="bg-green-700 text-center text-yellow-300 text-[2vw] py-1">LOKET 10</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- footer -->
+  <footer class="bg-white h-[48px]">
+    <marquee behavior="" direction="" class="text-xl text-gray-700">SELAMAT DATANG DI RUMAH SAKIT CONTOH</marquee>
+  </footer>
+</div>
+    
+  <script src="./assets/js/script.js"></script>
+  <script type="module">
+    import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.esm.browser.min.js'
+  
+    const swiper = new Swiper('.swiper', {
+    slidesPerView: 5,
+    spaceBetween: 30,
+    autoplay: {
+      delay: 2500,
+      disableOnInteraction: false,
+    },
+    // Optional parameters
+    loop: true,
+
+    // Navigation arrows
+    navigation: false,
+  })
+  </script>
+</body>
+</html>
