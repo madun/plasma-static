@@ -1,3 +1,14 @@
+(function () {
+  // addEventListener("click", function () {
+  //   var el = document.documentElement,
+  //     rfs =
+  //       el.requestFullScreen ||
+  //       el.webkitRequestFullScreen ||
+  //       el.mozRequestFullScreen;
+  //   rfs.call(el);
+  // });
+})();
+
 function showTime() {
   var options = {
     // weekday: "long",
@@ -26,8 +37,8 @@ function showTime() {
   m = m < 10 ? "0" + m : m;
   s = s < 10 ? "0" + s : s;
 
-  //   var time = h + ":" + m + ":" + s + " " + session;
-  var time = h + ":" + m;
+  // var time = h + ":" + m + ":" + s + " " + session;
+  var time = h + ":" + m + ":" + s;
   document.getElementById("MyClockDisplay").innerText = time;
   document.getElementById("MyClockDisplay").textContent = time;
 
